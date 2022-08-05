@@ -1,0 +1,27 @@
+{
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "pg": "^8.7.3",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.21.3"
+  },
+  "name": "pulpo.api.pretii.lat",
+  "description": "Pulpo api for pretii.lat",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "pm2-dev start  ecosystem.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lsancheztapia/pulpo.api.pretii.lat.git"
+  },
+  "author": "Luis Sanchez",
+  "license": "Copyright © 2022 Luis Alberto Sánchez Tapia",
+  "bugs": {
+    "url": "https://github.com/lsancheztapia/pulpo.api.pretii.lat/issues"
+  },
+  "homepage": "https://github.com/lsancheztapia/pulpo.api.pretii.lat#readme"
+}
